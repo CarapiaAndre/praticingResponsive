@@ -7,7 +7,8 @@
   order: 10;
 }
 
-@media screen and (max-width: 550px) {
+
+@media screen and (max-width: 850px) {
   .scores__table .location {
     display: none;
   }
@@ -48,5 +49,12 @@
     width: 850px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .phoneFonts {
+    font-size: 18px;
+    line-height: 1.2em;
   }
 }
