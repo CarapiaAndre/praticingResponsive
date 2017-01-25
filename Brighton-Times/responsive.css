@@ -7,6 +7,12 @@
   order: 10;
 }
 
+@media screen and (max-width: 550px) {
+  .scores__table .location {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 550px) {
 
   .hero {
