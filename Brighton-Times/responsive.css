@@ -27,6 +27,25 @@
     font-size: 16px;
     line-height: 1em;
   }
+
+  .scores__table .location {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .snippet__thumbnail {
+    display: none;
+  }
+
+  .snippet__description {
+    -webkit-line-clamp: 3;
+    max-height: 3.7em;
+  }
+
+  .snippet {
+    max-width: 500px;  
+  }
 }
 
 @media screen and (min-width: 850px) {
@@ -34,6 +53,10 @@
     width: 850px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .recent-news {
+    width: 80%;
   }
 
   .hero {
@@ -49,9 +72,5 @@
   }
   .weather {
     order: 3;
-  }
-
-  .scores__table .location {
-    display: block;
   }
 }

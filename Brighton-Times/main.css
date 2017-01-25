@@ -335,13 +335,13 @@ main {
 .snippet {
   clear: both;
   margin: 24px 0;
-  max-width: 500px;
 }
 
 .snippet__thumbnail {
-  width: 100px;
+  width: 245px;
   float: left;
   margin-right: 1em;
+  padding: 10px;
 }
 
 .snippet__title {
@@ -351,6 +351,14 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
+}
+
+.snippet__description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  max-height: 150px;
+  -webkit-line-clamp: 3;
 }
 
 .snippet__title a:hover,
