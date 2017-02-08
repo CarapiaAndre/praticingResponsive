@@ -6,7 +6,7 @@ body {
 }
 
 article {
-
+  border-bottom: 1px solid #ddd;
 }
 
 h1 {
